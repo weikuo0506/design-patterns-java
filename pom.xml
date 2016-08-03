@@ -13,6 +13,7 @@
         <module>observer</module>
         <module>decorator</module>
         <module>factory</module>
+        <module>singleton</module>
     </modules>
 
 
