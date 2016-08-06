@@ -17,6 +17,7 @@
         <module>command</module>
         <module>adapter</module>
         <module>template</module>
+        <module>iterator</module>
     </modules>
 
 
