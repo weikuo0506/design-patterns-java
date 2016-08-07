@@ -35,7 +35,7 @@ public class CompositeIterator implements Iterator {
                 stack.push(component.createIterator());
                 return next();
             }
-            return component;
+            return component; //always return a concrete menuItem;
         } else {
             return null;
         }
