@@ -19,6 +19,7 @@
         <module>template</module>
         <module>iterator</module>
         <module>state</module>
+        <module>proxy</module>
     </modules>
 
 
