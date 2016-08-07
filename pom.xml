@@ -18,6 +18,7 @@
         <module>adapter</module>
         <module>template</module>
         <module>iterator</module>
+        <module>state</module>
     </modules>
 
 
