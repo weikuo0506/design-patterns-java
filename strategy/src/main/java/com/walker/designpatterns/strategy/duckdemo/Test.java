@@ -18,9 +18,13 @@ public class Test {
         fastlouldDuck.performFly();
         fastlouldDuck.setFlyBehaviour(new FlySlow());
         fastlouldDuck.performFly();
+        fastlouldDuck.display();
 
         Duck slowMuteDuck = new SlowMuteDuck();
         slowMuteDuck.setFlyBehaviour(new FlySlow());
+        slowMuteDuck.performFly();
         slowMuteDuck.setQuackBehaviour(new QuackMute());
+        slowMuteDuck.performQuack();
+        slowMuteDuck.display();
     }
 }
