@@ -1,6 +1,6 @@
-package com.walker.designpatterns.command.command;
+package com.walker.designpatterns.command.lightdemo.command;
 
-import com.walker.designpatterns.command.receiver.Light;
+import com.walker.designpatterns.command.lightdemo.receiver.Light;
 
 /**
  * Created by walker on 2016/8/4.

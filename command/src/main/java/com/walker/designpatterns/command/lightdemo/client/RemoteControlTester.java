@@ -1,9 +1,9 @@
-package com.walker.designpatterns.command.client;
+package com.walker.designpatterns.command.lightdemo.client;
 
-import com.walker.designpatterns.command.command.Command;
-import com.walker.designpatterns.command.command.LightCommand;
-import com.walker.designpatterns.command.invoker.RemoteControl;
-import com.walker.designpatterns.command.receiver.Light;
+import com.walker.designpatterns.command.lightdemo.command.Command;
+import com.walker.designpatterns.command.lightdemo.command.LightCommand;
+import com.walker.designpatterns.command.lightdemo.invoker.RemoteControl;
+import com.walker.designpatterns.command.lightdemo.receiver.Light;
 
 /**
  * Created by walker on 2016/8/4.

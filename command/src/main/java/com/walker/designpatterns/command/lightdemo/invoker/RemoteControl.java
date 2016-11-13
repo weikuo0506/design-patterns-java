@@ -1,6 +1,6 @@
-package com.walker.designpatterns.command.invoker;
+package com.walker.designpatterns.command.lightdemo.invoker;
 
-import com.walker.designpatterns.command.command.Command;
+import com.walker.designpatterns.command.lightdemo.command.Command;
 
 /**
  * Created by walker on 2016/8/4.
