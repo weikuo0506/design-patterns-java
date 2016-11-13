@@ -5,7 +5,7 @@ package com.walker.designpatterns.singleton;
  * 通过synchronized实现同步;缺点是每次getInstance都要同步，代价高昂；
  */
 public class SingletonB {
-    private static SingletonB instance;
+    private static SingletonB instance = null;
     private SingletonB(){}
 
     public static synchronized SingletonB getInstance() {
@@ -15,3 +15,4 @@ public class SingletonB {
         return instance;
     }
 }
+

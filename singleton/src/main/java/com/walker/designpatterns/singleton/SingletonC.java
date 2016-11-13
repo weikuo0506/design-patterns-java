@@ -6,9 +6,9 @@ package com.walker.designpatterns.singleton;
  * 使用场景是：该实例一定会被用到；且初始化时创建负担不大；
  */
 public class SingletonC {
-    private static SingletonC instance = new SingletonC();
+    private static final SingletonC INSTANCE = new SingletonC();
     private SingletonC(){}
     public static SingletonC getInstance() {
-        return instance;
+        return INSTANCE;
     }
 }

@@ -6,7 +6,7 @@ package com.walker.designpatterns.singleton;
  * volatile保证instance变量在线程内存和主内存中是同一个，某一个线程创建后能立即刷新到主内存和所有其他线程内存；
  */
 public class SingletonD {
-    private volatile static SingletonD instance;
+    private volatile static SingletonD instance = null;
     private SingletonD(){}
     public static SingletonD getInstance() {
         if (instance == null) {
