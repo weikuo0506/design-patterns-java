@@ -1,4 +1,4 @@
-package com.walker.designpatterns.command.command;
+package com.walker.designpatterns.command.lightdemo.command;
 
 /**
  * Created by walker on 2016/8/4.

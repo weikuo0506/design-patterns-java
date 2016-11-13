@@ -1,4 +1,4 @@
-package com.walker.designpatterns.command.receiver;
+package com.walker.designpatterns.command.lightdemo.receiver;
 
 /**
  * Created by walker on 2016/8/4.
